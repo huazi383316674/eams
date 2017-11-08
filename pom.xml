@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.lmh.eams</groupId>
+	<artifactId>eams</artifactId>
+	<packaging>war</packaging>
+	<version>4.0.0</version>
+	<name>Eams Project</name>
+	
+	<properties>
+		<eams.version>1.0.0</eams.version>
+		<beangle.version>3.5.3</beangle.version>
+	</properties>
+	<dependencies>
+		<!-- beangle 包 -->
+		<dependency>
+	      <groupId>org.beangle.commons</groupId>
+	      <artifactId>beangle-commons-core</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.commons</groupId>
+ 		  <artifactId>beangle-commons-model</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.commons</groupId>
+ 		  <artifactId>beangle-commons-web</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.ioc</groupId>
+ 		  <artifactId>beangle-ioc-spring</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.orm</groupId>
+  		  <artifactId>beangle-orm-hibernate</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.struts2</groupId>
+  		  <artifactId>beangle-struts2-convention</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.beangle.struts2</groupId>
+          <artifactId>beangle-struts2-view</artifactId>
+	      <version>${beangle.version}</version>
+	    </dependency>
+	    <!--  -->
+	    <dependency>
+	      <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+	      <version>1.0.7</version>
+	    </dependency>
+	</dependencies>
+	<profiles>
+	</profiles>
+	<build>
+	</build>
+</project>
