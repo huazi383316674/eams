@@ -50,11 +50,6 @@
     <url-pattern>*.action</url-pattern>
   </filter-mapping>
 
-  <filter-mapping>
-    <filter-name>OpenSessionInViewFilter</filter-name>
-    <url-pattern>/dwr/*</url-pattern>
-  </filter-mapping>
-  
   <listener>
     <listener-class>org.beangle.commons.web.session.HttpSessionEventPublisher</listener-class>
   </listener>
@@ -107,26 +102,6 @@
 		</init-param>
 	</servlet>
 	
-  <!--DWR 配置-->
-  <servlet>
-    <servlet-name>dwr-invoker</servlet-name>
-    <description>Direct Web Remoter Servlet</description>
-    <servlet-class>org.directwebremoting.spring.DwrSpringServlet</servlet-class>
-    <init-param>
-      <param-name>debug</param-name>
-      <param-value>false</param-value>
-    </init-param>
-    <init-param>
-      <param-name>crossDomainSessionSecurity</param-name>
-      <param-value>false</param-value>
-    </init-param>
-    <init-param>
-      <param-name>allowScriptTagRemoting</param-name>
-      <param-value>true</param-value>
-    </init-param>
-    <load-on-startup>20</load-on-startup>
-  </servlet>
-
   <servlet>
     <servlet-name>JspSupportServlet</servlet-name>
     <servlet-class>org.apache.struts2.views.JspSupportServlet</servlet-class>
@@ -154,12 +129,6 @@
 	</servlet-mapping>
 
 	
-  <!--dwr url-->
-  <servlet-mapping>
-    <servlet-name>dwr-invoker</servlet-name>
-    <url-pattern>/dwr/*</url-pattern>
-  </servlet-mapping>
-  
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
   </welcome-file-list>

@@ -8,18 +8,16 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.lmh.eams.users</groupId>
-	<artifactId>lmh-eams-users</artifactId>
+	<artifactId>eams-app-user</artifactId>
 	<packaging>jar</packaging>
-	<name>lmh eams users</name>
+	<name>eams users</name>
 	<version>1.0-SNAPSHOT</version>
 
 	<dependencies>
-		<!--
 		<dependency>
-	     	<groupId>xxx.xxx.xx.xxx</groupId>
-		 	<artifactId>xxx-xxx-xxx</artifactId>
-	      	<version>${project.version}</version>
+	     	<groupId>com.lmh.eams.core</groupId>
+		 	<artifactId>eams-app-core</artifactId>
+	      	<version>${eams.version}</version>
 	    </dependency>
-		-->
 	</dependencies>
 </project>

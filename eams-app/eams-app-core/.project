@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>eams-app-core</name>
+  <comment>NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>beangle-commons-core</project>
+    <project>beangle-commons-model</project>
+    <project>beangle-commons-web</project>
+    <project>beangle-ioc-spring</project>
+    <project>beangle-orm-hibernate</project>
+    <project>beangle-struts2-convention</project>
+    <project>beangle-struts2-view</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>

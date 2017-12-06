@@ -5,7 +5,7 @@
 	<groupId>com.lmh.eams</groupId>
 	<artifactId>eams</artifactId>
 	<packaging>war</packaging>
-	<version>4.0.0</version>
+	<version>1.0.0</version>
 	<name>Eams Project</name>
 	
 	<properties>
